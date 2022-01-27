@@ -1,8 +1,8 @@
-<!-- Space: BaseTemplate -->
+<!-- Space: TerraformProviderDiscord -->
 <!-- Parent: Project -->
 <!-- Title: Troubleshooting -->
 
-<!-- Label: BaseTemplate -->
+<!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Troubleshooting -->
 <!-- Include: docs/disclaimer.md -->

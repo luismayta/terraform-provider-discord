@@ -1,8 +1,8 @@
-<!-- Space: BaseTemplate -->
+<!-- Space: TerraformProviderDiscord -->
 <!-- Parent: Project -->
 <!-- Title: Env Vars -->
 
-<!-- Label: BaseTemplate -->
+<!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Env Vars -->
 <!-- Include: docs/disclaimer.md -->
