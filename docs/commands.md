@@ -1,8 +1,8 @@
-<!-- Space: BaseTemplate -->
+<!-- Space: TerraformProviderDiscord -->
 <!-- Parent: Project -->
 <!-- Title: Commands -->
 
-<!-- Label: BaseTemplate -->
+<!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
 <!-- Include: docs/disclaimer.md -->

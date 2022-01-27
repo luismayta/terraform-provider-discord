@@ -1,4 +1,4 @@
-<!-- Space: BaseTemplate -->
+<!-- Space: TerraformProviderDiscord -->
 <!-- Parent: Project -->
 <!-- Title: Roadmap -->
 
@@ -30,7 +30,7 @@
 
 The Roadmap is a list of all the things we're working on for the year.
 
-You can see the corresponding projects on [base-template](https://github.com/hadenlabs/base-template)
+You can see the corresponding projects on [terraform-provider-discord](https://github.com/hadenlabs/terraform-provider-discord)
 
 ## Legend
 

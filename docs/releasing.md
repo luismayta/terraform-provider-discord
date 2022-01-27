@@ -1,8 +1,8 @@
-<!-- Space: BaseTemplate -->
+<!-- Space: TerraformProviderDiscord -->
 <!-- Parent: Project -->
 <!-- Title: Releasing -->
 
-<!-- Label: BaseTemplate -->
+<!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: docs/disclaimer.md -->
@@ -12,7 +12,7 @@
 
 ## Bump a new version
 
-Make a new version of base-template in the following steps:
+Make a new version of terraform-provider-discord in the following steps:
 
 ### Generate version major
 
