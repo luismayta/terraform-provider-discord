@@ -1,8 +1,8 @@
-<!-- Space: BaseTemplate -->
+<!-- Space: TerraformProviderDiscord -->
 <!-- Parent: Project -->
 <!-- Title: Components -->
 
-<!-- Label: BaseTemplate -->
+<!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Components -->
 <!-- Include: docs/disclaimer.md -->

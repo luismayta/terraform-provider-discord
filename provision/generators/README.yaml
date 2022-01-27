@@ -5,13 +5,13 @@
 #
 
 # Name of this project
-name: base-template
+name: terraform-provider-discord
 
 email:
   support: support@hadenlabs.com
 
 confluence:
-  space: BaseTemplate
+  space: TerraformProviderDiscord
   title: Project
 
 # Logo for this project
@@ -21,16 +21,16 @@ confluence:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: hadenlabs/base-template
+github_repo: hadenlabs/terraform-provider-discord
 
 # Badges to display
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/base-template
-    url: https://github.com/hadenlabs/base-template/releases
+    image: https://img.shields.io/github/release/hadenlabs/terraform-provider-discord
+    url: https://github.com/hadenlabs/terraform-provider-discord/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/base-template/lint-code
-    url: https://github.com/hadenlabs/base-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/lint-code
+    url: https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=lint-code
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -49,10 +49,4 @@ requirements: |-
 # Short description of this project
 description: |-
 
-  base-template for project
-
-  ### Replace name project to New Project
-
-  ```bash
-    agr 'base-template' 'new-project'
-  ```
+  terraform-provider-discord for project
