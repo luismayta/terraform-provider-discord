@@ -61,7 +61,13 @@ repos:
             .+\.tpl.sh$|
           )$
         args:
-          - --exclude=SC1072,SC1073,SC2068
+          - --exclude=SC1071,SC1073,SC2068
+      - id: validate-toml
+      - id: no-go-testing
+      - id: golangci-lint
+        args:
+          - --fix
+          - --config=.github/linters/.golangci.yml
       - id: todocheck
       - id: gitleaks
         args:
