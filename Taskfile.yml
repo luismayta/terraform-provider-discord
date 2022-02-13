@@ -114,3 +114,8 @@ tasks:
     desc: Setup environment of project
     cmds:
       - task: python:environment
+
+  update:
+    desc: update dependences
+    cmds:
+      - pipenv run update
