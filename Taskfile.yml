@@ -8,6 +8,7 @@ includes:
   docs: ./provision/task/docs.yml
   docker: ./provision/task/docker.yml
   plantuml: ./provision/task/plantuml.yml
+  go: ./provision/task/go.yml
   gitflow: ./provision/task/gitflow.yml
   version: ./provision/task/version.yml
   mark: ./provision/task/mark.yml
@@ -107,6 +108,7 @@ tasks:
       - task: python:precommit
       - task: git:setup
       - task: gitflow:setup
+      - task: go:setup
 
   environment:
     desc: Setup environment of project
