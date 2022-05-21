@@ -1,13 +1,3 @@
-<!-- Space: TerraformProviderDiscord -->
-<!-- Parent: Project -->
-<!-- Title: Troubleshooting -->
-
-<!-- Label: TerraformProviderDiscord -->
-<!-- Label: Project -->
-<!-- Label: Troubleshooting -->
-<!-- Include: docs/disclaimer.md -->
-<!-- Include: ac:toc -->
-
 # Troubleshooting
 
 ## Environment
