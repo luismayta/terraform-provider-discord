@@ -1,9 +1,9 @@
-<!-- Space: TerraformProviderDiscord -->
-<!-- Parent: Project -->
-<!-- Title: Project Examples -->
+<!-- Space: Projects -->
+<!-- Parent: TerraformProviderDiscord -->
+<!-- Title: Examples TerraformProviderDiscord -->
 
 <!-- Label: Examples -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ### common

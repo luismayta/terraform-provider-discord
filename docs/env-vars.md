@@ -1,11 +1,11 @@
-<!-- Space: TerraformProviderDiscord -->
-<!-- Parent: Project -->
-<!-- Title: Env Vars -->
+<!-- Space: Projects -->
+<!-- Parent: TerraformProviderDiscord -->
+<!-- Title: Env Vars TerraformProviderDiscord -->
 
 <!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Env Vars -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ---
