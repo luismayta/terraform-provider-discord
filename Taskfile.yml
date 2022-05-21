@@ -7,11 +7,10 @@ includes:
   git: ./provision/task/git.yml
   docs: ./provision/task/docs.yml
   docker: ./provision/task/docker.yml
-  plantuml: ./provision/task/plantuml.yml
   go: ./provision/task/go.yml
   gitflow: ./provision/task/gitflow.yml
   version: ./provision/task/version.yml
-  mark: ./provision/task/mark.yml
+  plantuml: ./provision/task/plantuml.yml
   prettier: ./provision/task/prettier.yml
   sonar: ./provision/task/sonar.yml
   diagrams: ./provision/diagrams/Taskfile.yml
@@ -40,7 +39,7 @@ vars:
   REVIEWERS: luismayta
   PYTHON_VERSION: 3.9.2
   NODE_VERSION: 16.6.1
-  GIT_IGNORES: python,node,go,zsh,sonar,osx,linux
+  GIT_IGNORES: python,node,go,zsh,sonar,linux
   GOLANGCI_VERSION: 1.42.0
   README_FILE: README.md
   GIT_IGNORES_CUSTOM: >-
@@ -80,7 +79,6 @@ tasks:
       - git:check
       - gitflow:check
       - docs:check
-      - sonar:check
 
   readme:
     run: once
@@ -92,6 +90,7 @@ tasks:
         --out {{.README_FILE}}
         --datasource config={{.README_YAML}}
         --datasource includes={{.README_INCLUDES}}
+      - task: prettier
 
   prettier:
     run: once
