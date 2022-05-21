@@ -1,6 +1,3 @@
- <!-- Space: TerraformProviderDiscord -->
-<!-- Title: Project -->
-
 <!--
 
 
@@ -15,7 +12,7 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/terraform-provider-discord)](https://github.com/hadenlabs/terraform-provider-discord/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/lint-code)](https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/terraform-provider-discord)](https://github.com/hadenlabs/terraform-provider-discord/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/lint-code)](https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/ci)](https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/test)](https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
 # terraform-provider-discord
 
@@ -28,6 +25,47 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 - [gomplate](https://github.com/hairyhenderson/gomplate)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
+
+## Usage
+
+# How to use this project
+
+```hcl-terraform
+provider discord {
+  token = var.discord_token
+}
+
+data discord_local_image logo {
+  file = "logo.png"
+}
+
+resource discord_server my_server {
+  name = "My Awesome Server"
+  region = "us-west"
+  default_message_notifications = 0
+  icon_data_uri = data.discord_local_image.logo.data_uri
+}
+```
+
+## Argument Reference
+
+The Discord provider supports the following arguments:
+
+- `token` - The token of the bot that will be accessing the API
+- `client_id` - Currently unused
+- `secret` - Currently unused
+
+## Examples
+
+<!-- Space: Projects -->
+<!-- Parent: TerraformProviderDiscord -->
+<!-- Title: Examples TerraformProviderDiscord -->
+
+<!-- Label: Examples -->
+<!-- Include: ./../disclaimer.md -->
+<!-- Include: ac:toc -->
+
+### common
 
 ## Help
 
