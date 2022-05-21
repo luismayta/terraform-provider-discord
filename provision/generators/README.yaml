@@ -10,10 +10,6 @@ name: terraform-provider-discord
 email:
   support: support@hadenlabs.com
 
-confluence:
-  space: TerraformProviderDiscord
-  title: Project
-
 # Logo for this project
 #logo: docs/logo.png
 
@@ -31,12 +27,21 @@ badges:
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/lint-code
     url: https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=lint-code
+  - name: CI
+    image: https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/ci
+    url: https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=ci
+  - name: Test
+    image: https://img.shields.io/github/workflow/status/hadenlabs/terraform-provider-discord/test
+    url: https://github.com/hadenlabs/terraform-provider-discord/actions?workflow=test
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange
+    url: https://keepachangelog.com
 
 requirements: |-
 
@@ -50,3 +55,9 @@ requirements: |-
 description: |-
 
   terraform-provider-discord for project
+
+usages:
+  - docs/usage.md
+
+examples:
+  - 'docs/examples/common.md'
