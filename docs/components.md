@@ -1,11 +1,11 @@
-<!-- Space: TerraformProviderDiscord -->
-<!-- Parent: Project -->
-<!-- Title: Components -->
+<!-- Space: Projects -->
+<!-- Parent: TerraformProviderDiscord -->
+<!-- Title: Components TerraformProviderDiscord -->
 
 <!-- Label: TerraformProviderDiscord -->
 <!-- Label: Project -->
 <!-- Label: Components -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 # components
